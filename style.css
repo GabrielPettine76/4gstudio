@@ -446,7 +446,9 @@ ul{
     grid-template-columns: repeat(1,1fr);
     height: 100%;
 }
-
+.noMostrar{
+display:none;
+}
 .contedorPortfolio{
     margin:20px auto;
     
