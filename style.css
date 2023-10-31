@@ -420,6 +420,8 @@ ul{
     color:#85888C;
 }
 /*responsive*/
+
+/*responsive*/
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
@@ -429,9 +431,50 @@ ul{
     display: grid;
     grid-template-columns: repeat(1,1fr);
 }
+
 }
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
 }
+.nav{
+    width: 100%;
 }
+.contenedor{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    height: 100%;
+}
+
+.contedorPortfolio{
+    margin:20px auto;
+    
+}
+.descripcion{
+    display: none;
+}
+}
+@media(max-width: 444px){
+    .footer-col{
+      width: 100%;
+  }
+  .nav{
+      width: 100%;
+  }
+  #section1{
+    width: 100%;
+  }
+  #section2{
+    width: 100%;
+  }
+  #section3 {
+      width: 100%;
+    }
+    #section4{
+        width: 100%;
+    }
+  .contedorPortfolio{
+      float: left;
+  }
+  }
