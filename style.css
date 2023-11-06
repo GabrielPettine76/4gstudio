@@ -484,3 +484,18 @@ display:none;
       float: left;
   }
   }
+@media (max-width:280px){
+    #section1{
+       display: grid;
+       grid-template-columns: 1fr;
+       margin-top:20px;
+
+    }
+    #section3 .contedorPortfolio{
+        width: 95%;
+    }
+    .logo{
+        font-size: 35px;
+        padding-top: 10px;
+    }
+  }
